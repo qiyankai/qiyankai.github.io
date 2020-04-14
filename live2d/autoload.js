@@ -8,7 +8,7 @@ try {
             live2d_settings['modelId'] = 6;                  // 默认模型 ID 1,6
             live2d_settings['modelTexturesId'] = 3;          // 默认材质 ID 6-3,7,2,1-87,1-42,1-2兔子，1-81，1-30羊
             live2d_settings['modelStorage'] = true;         // 不储存模型 ID
-            /* 在 initModel 前添加 */
+            /* 在 initModel 前 添加 */
             initModel("/live2d/waifu-tips.json");
         }});
     }});
